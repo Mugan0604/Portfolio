@@ -1,0 +1,10 @@
+@import './Typography.css';
+@import './global-style.css';
+
+/* templates */
+
+@import './Sections/header.css';
+@import './Sections/banner.css';
+@import './Sections/about.css';
+@import './Sections/work.css';
+@import './Sections/contact.css';

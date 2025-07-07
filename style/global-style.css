@@ -1,0 +1,245 @@
+.section-heading{
+  margin-bottom:88px;
+}
+html.overflow {
+    overflow: hidden;
+}
+/**********  Flex  **********/
+
+.mob-flex,
+.flex{
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+}
+.flex-wrap {
+  -ms-flex-wrap:wrap;
+  flex-wrap:wrap;
+}
+.flex-no-wrap,
+.mob-flex.flex-no-wrap,
+.flex.flex-no-wrap{
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+}
+.flex-center{
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.flex-between-center{
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+/**********  Flex-Direction **********/
+
+.flex-row {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
+  flex-direction: row;
+}
+.flex-row-reverse {
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: row-reverse;
+  flex-direction: row-reverse;
+}
+.flex-col {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+.flex-col-reverse {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: reverse;
+  -ms-flex-direction: column-reverse;
+  flex-direction: column-reverse;
+}
+
+/**********  Flex-Align **********/
+
+.align-start {
+  -webkit-box-align: start;
+  -ms-flex-align: start;
+  align-items: flex-start;
+}
+
+.align-end {
+  -webkit-box-align: end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.align-center {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.align-baseline {
+  -webkit-box-align: baseline;
+  -ms-flex-align: baseline;
+  align-items: baseline;
+}
+
+.align-stretch {
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+}
+
+/**********  Flex-Justify **********/
+
+.justify-start {
+  -webkit-box-pack: start;
+  -ms-flex-pack: start;
+  justify-content: flex-start;
+}
+
+.justify-end {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.justify-center {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.justify-between {
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.justify-around {
+  -ms-flex-pack: distribute;
+  justify-content: space-around;
+}
+
+.justify-evenly {
+  -webkit-box-pack: space-evenly;
+  -ms-flex-pack: space-evenly;
+  justify-content: space-evenly;
+}
+@media(min-width:768px){
+.mobile {
+    display: none;
+}
+}
+@media(max-width:767px){
+  .flex{
+    display:block;
+  }
+
+  .mob-flex{
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+  }
+  .mob-flex-row-reverse {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: row-reverse;
+    flex-direction: row-reverse;
+  }
+  .mob-flex-col-reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
+  }
+  .mob-flex.flex-between-center{
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+  }
+.section-heading{
+  margin-bottom:78px;
+}
+.desktop{
+  display: none;
+}
+}
+
+/**********  background-image  **********/
+
+.section-bg {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/**********  blocks  **********/
+
+.inline-box{
+  display:inline-block;
+}
+.box-none{
+  display:none;
+}
+.box-block{
+  display:block;
+}
+
+/**********  Alignment  **********/
+
+.center-align{
+  text-align: center; 
+}
+
+/********** Font Weight  **********/
+
+.fw-6,
+.fw-6 h1,
+.fw-6 h2,
+.fw-6 h3,
+.fw-6 h4,
+.fw-6 h5,
+.fw-6 h6,
+.fw-6 li,
+.fw-6 p,
+.fw-6 a {
+  font-weight:600;
+}
+
+.fw-5,
+.fw-5 h1,
+.fw-5 h2,
+.fw-5 h3,
+.fw-5 h4,
+.fw-5 h5,
+.fw-5 h6,
+.fw-5 li,
+.fw-5 p,
+.fw-5 a {
+  font-weight:500;
+}
+
+.fw-4,
+.fw-4 h1,
+.fw-4 h2,
+.fw-4 h3,
+.fw-4 h4,
+.fw-4 h5,
+.fw-4 h6,
+.fw-4 li,
+.fw-4 p,
+.fw-4 a {
+  font-weight:400;
+}

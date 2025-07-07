@@ -1,0 +1,129 @@
+.about{
+padding: 150px 0;
+background-color: var(--slate_light);
+}
+.about .section-heading{
+max-width: 900px;
+margin: 0 auto 86px;
+}
+.about .explare-design .explore-text,
+.about .skills-explore .skill-text{
+display: inline-block;
+margin-bottom: 86px;
+padding: 9px 32px;
+font-weight: 600;
+color: var(--secondary_color);
+border-right: 2px solid var(--secondary_color);
+border-left: 2px solid var(--secondary_color);
+}
+.about .wave-design-wrap svg{
+margin: 0 auto;
+}
+.about .wave-design-wrap svg line,
+.about .wave-design-wrap svg polyline {
+stroke: var(--secondary_color);
+}
+.about .about-experience {
+margin: 86px 0;
+}
+.about .about-experience {
+margin: 86px 0;
+}
+
+.about .about-experience .AE-box {
+gap: 5%;
+row-gap: 88px;
+}
+.about .about-experience .AE-box .AE-list {
+flex-basis: 47.5%;
+position: relative;
+padding-top: 15px;
+padding-left: 30px;
+z-index: 1;
+}
+.about .about-experience .AE-list .develop-icon{
+position: absolute;
+z-index: -1;
+top: 0;
+left: 0;
+opacity: .3;
+}
+.about .about-experience .develop-icon svg path,
+.about .about-experience .develop-icon svg polygen{
+fill:var(--owner_mid);
+}
+.about .about-experience .develop-icon svg rect,
+.about .about-experience .develop-icon svg polyline{
+stroke:var(--owner_mid);
+}
+.about .about-experience .AE-list .summary p {
+font-size: 16px;
+margin-bottom: 0;
+}
+.about .skills-explore {
+margin-top: 88px;
+}
+.about .skills-explore .uss-logos {
+row-gap: 88px;
+margin: 44px 0;
+}
+.about .skills-explore .uss-logos .logo-list {
+flex-basis: 25%;
+padding: 0 20px;
+}
+.about .skills-explore .uss-logos .logo-img {
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 30px;
+min-height: 78px;
+}
+.about .skills-explore .uss-logos .logo-img img {
+max-width: 80px;
+max-height: 80px;
+width: auto;
+height: auto;
+}
+.about .skills-explore .learning-skills .uss-logos {
+margin-bottom: 0;
+}
+@media(max-width:1024px) and (min-width:768px){
+.about {
+    padding: 120px 0;
+}
+}
+@media(max-width:767px){
+.about {
+padding: 100px 0;
+}
+.about .section-heading,
+.about .explare-design .explore-text,
+.about .skills-explore .skill-text{
+margin-bottom: 78px;
+}
+.about .about-experience{
+margin: 78px 0;
+}
+.about .about-experience .AE-box .AE-list:not(:last-child){
+margin-bottom: 48px;
+}
+.about .skills-explore .uss-logos .logo-img img {
+max-width: 45px;
+max-height: 45px;
+}
+.about .skills-explore .uss-logos .logo-list {
+    flex-basis: 33.3%;
+    padding: 0 10px;
+}
+.about .skills-explore .uss-logos {
+row-gap: 44px;
+}
+.about .skills-explore .logo-text {
+    font-size: 14px;
+}
+}
+@media (max-width: 420px) {
+    .about .skills-explore .logo-text {
+        font-size: 12px;
+    }
+}
